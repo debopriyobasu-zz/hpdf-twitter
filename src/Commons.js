@@ -6,44 +6,52 @@ const cardstyle = {
   height: 213,
   width: 290,
   textAlign: 'center',
-  display: 'inline-block',
   marginTop: 10,
-  marginLeft:200
+  float:'left'
 };
-const trendsstyle ={
-    marginLeft:200,
-    height: 406,
-    width: 290,
-    textAlign: 'center',
-    display: 'inline-block',
-    marginTop: 10,
-}
 const tweetboxstyle = {
     height: 58,
     width: 588,
-    position: 'relative',
-    left: 500,
-    top: -633,
+    // position: 'relative',
+    // left: 500,
+    // top: -633,
     backgroundColor: '#E8F4FB',
+     marginLeft: 10,
+     marginRight: 10,
+     marginTop: 10,
+     float:'left',
   };
+const trendsstyle ={
+    height: 406,
+    width: 290,
+    display: 'inline-block',
+    marginTop: 10,
+    position:'absolute',
+    top:275,
+    right:1113
+}
+
   const followstyle ={
-    marginLeft:5,
+    marginTop: 10,
     height: 290,
     width: 290,
-    display: 'inline-block',
-    position:'relative',
-    left: 1098,
-    top: -700,
-    marginTop: 10,
+    float:'left',
+    // display: 'inline-block',
+    // position:'relative',
+    // left: 1098,
+    // top: -700,
 }
 const policystyle ={
-    marginLeft:5,
+    // marginLeft:5,
     height: 156,
     width: 290,
-    display: 'inline-block',
-    position:'relative',
-    left: 1098,
-    top: -695,
+    // display: 'inline-block',
+    // position:'relative',
+    // left: 1098,
+    // top: -695,
+    position:'absolute',
+    left:1095,
+    top:360
 }
 const profstyle ={
     display: 'inline-block',
@@ -62,11 +70,17 @@ export class ProfileCard extends React.Component{
             <div>
                 <Paper style={cardstyle} zDepth={0} rounded={false}>
                 <img src={this.props.bgimg} alt="Debopriyo Cover Photo" width="290" height="95"/>
-                <Avatar src={this.props.profpic} size={70} style={profstyle}/>
+                <Avatar src={this.props.profpic} size={68} style={profstyle}/>
                 <a href="https://twitter.com/debopriyobasu" className="myname"><div id="name">Debopriyo Basu</div></a>
-                <div id="handle">@<a href="https://twitter.com/debopriyobasu" className="twhandle">debopriyobasu</a></div>
-                
-                
+                <div id="parentstats">
+                    <div id="handle">@<a href="https://twitter.com/debopriyobasu" className="twhandle">debopriyobasu</a></div>
+                    <div className="stats" id="tweetinfo">Tweets</div>
+                    <div className="stats" id="followinginfo">Following</div>
+                    <div className="stats" id="followerinfo">Followers</div>
+                    <div className="numbers" id="tweets">372</div>
+                    <div className="numbers" id="following">41</div>
+                    <div className="numbers" id="followers">31</div>
+                    </div>
                 </Paper>
                 </div>
         )
