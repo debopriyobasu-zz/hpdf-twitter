@@ -12,9 +12,6 @@ const cardstyle = {
 const tweetboxstyle = {
     height: 58,
     width: 588,
-    // position: 'relative',
-    // left: 500,
-    // top: -633,
     backgroundColor: '#E8F4FB',
      marginLeft: 10,
      marginRight: 10,
@@ -22,7 +19,7 @@ const tweetboxstyle = {
      float:'left',
   };
 const trendsstyle ={
-    height: 406,
+    height: 420,
     width: 290,
     display: 'inline-block',
     marginTop: 10,
@@ -36,19 +33,10 @@ const trendsstyle ={
     height: 290,
     width: 290,
     float:'left',
-    // display: 'inline-block',
-    // position:'relative',
-    // left: 1098,
-    // top: -700,
 }
 const policystyle ={
-    // marginLeft:5,
     height: 156,
     width: 290,
-    // display: 'inline-block',
-    // position:'relative',
-    // left: 1098,
-    // top: -695,
     position:'absolute',
     left:1095,
     top:360
@@ -71,9 +59,9 @@ export class ProfileCard extends React.Component{
                 <Paper style={cardstyle} zDepth={0} rounded={false}>
                 <img src={this.props.bgimg} alt="Debopriyo Cover Photo" width="290" height="95"/>
                 <Avatar src={this.props.profpic} size={68} style={profstyle}/>
-                <a href="https://twitter.com/debopriyobasu" className="myname"><div id="name">Debopriyo Basu</div></a>
+                <a href="https://twitter.com/debopriyobasu" className="myname"><div className="name">Debopriyo Basu</div></a>
                 <div id="parentstats">
-                    <div id="handle">@<a href="https://twitter.com/debopriyobasu" className="twhandle">debopriyobasu</a></div>
+                    <div id="handle">@<a href="https://twitter.com/debopriyobasu">debopriyobasu</a></div>
                     <div className="stats" id="tweetinfo">Tweets</div>
                     <div className="stats" id="followinginfo">Following</div>
                     <div className="stats" id="followerinfo">Followers</div>
@@ -91,6 +79,41 @@ export class TrendsBox extends React.Component{
         return(
             <div>
                 <Paper style={trendsstyle} zDepth={0} rounded={false}>
+                    <div id="trends-wrapper">
+                        <div className="name">Trends for you<div className="dot">.</div><div className="subtext">Change</div></div>
+                        <div className="trendingnow">
+                            <div className="hashtags">#INDvSL</div>
+                            <div className="subheader">68.4k Tweets</div>
+                        </div>
+                        <div className="trendingnow">
+                            <div className="hashtags">Arsenal</div>
+                            <div className="subheader">347k Tweets</div>
+                        </div>
+                        <div className="trendingnow">
+                            <div className="hashtags">#TigerZindaHai</div>
+                            <div className="subheader">148k Tweets</div>
+                        </div> 
+                        <div className="trendingnow">
+                            <div className="hashtags">#2GScamVerdict</div>
+                            <div className="subheader">40.8k Tweets</div>
+                        </div>
+                        <div className="trendingnow">
+                            <div className="hashtags">#FridayFeeling</div>
+                            <div className="subheader">@HasuraHQ is Tweeting about this</div>
+                        </div>
+                        <div className="trendingnow">
+                            <div className="hashtags">#nationalmathematicsday</div>
+                            <div className="subheader">3482 Tweets</div>
+                        </div>
+                        <div className="trendingnow">
+                            <div className="hashtags">#ARSLIV</div>
+                            <div className="subheader">Arsenal v Liverpool</div>
+                        </div>    
+                        <div className="trendingnow">
+                            <div className="hashtags">UN Security Council</div>
+                            <div className="subheader">11.2K Tweets</div>
+                        </div>                  
+                    </div>
                 </Paper>
                 </div>
         )

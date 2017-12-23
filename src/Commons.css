@@ -15,7 +15,7 @@ a:visited {
     margin-left: 10px;
     margin-top: 6px;
 }
-#name{
+.name{
     font-size: 18px;
     font-family: "Segoe UI",Arial,sans-serif;
     font-weight: bold;
@@ -45,12 +45,12 @@ a:visited {
 }
 #followinginfo{
     position: relative;
-    right:65px;
+    right:62px;
     top:-5px;
 }
 #followerinfo{
     position: relative;
-    right:-65px;
+    right:-66px;
     top:-21px;
 }
 .numbers{
@@ -74,4 +74,49 @@ a:visited {
     position:relative;
     top:-85px;
     right:-50px;
+}
+#trends-wrapper{
+    border: 1px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.hashtags{
+    font-weight: bold;
+    color:#1B95E0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size:14px;
+}
+.hashtags:hover{
+    text-decoration: underline;
+}
+.subheader{
+    font-size:12px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:#657786;
+}
+.trendingnow{
+    margin-top: 10px;
+}
+.subtext{
+    display: inline-block !important;
+    font-size:12px !important;
+    font-weight: normal !important;
+    color:#1B95E0 !important;
+}
+.subtext:hover{
+    color:#1B95E0 !important;
+    text-decoration: underline;
+}
+.subtext:link {
+    text-decoration: none;
+    color:#1B95E0 !important;
+}
+.dot{
+    display: inline-block;
+    color: 14171A !important;
+    font-size:12px !important;
+    font-weight:normal !important;
+    padding-left: 4px;
+    padding-right:4px;
 }
