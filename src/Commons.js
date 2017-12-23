@@ -52,6 +52,21 @@ const profstyle ={
     borderStyle: 'solid',
     borderColor: '#FFFFFF',
 }
+const tweetboxProfpicStyle = {
+    display:'inline',
+    position:'relative',
+    top:3,
+    left:16,
+}
+const tweetboxinnerpapercomponent ={
+    position: 'absolute',
+    top:68,
+    left:565,
+    border:1,
+    borderRadius: 10,
+    borderStyle:'solid',
+    borderColor:'#B3E5FC',
+}
 export class ProfileCard extends React.Component{
     render(){
         return(
@@ -65,7 +80,7 @@ export class ProfileCard extends React.Component{
                     <div className="stats" id="tweetinfo">Tweets</div>
                     <div className="stats" id="followinginfo">Following</div>
                     <div className="stats" id="followerinfo">Followers</div>
-                    <div className="numbers" id="tweets">372</div>
+                    <div className="numbers" id="tweets">373</div>
                     <div className="numbers" id="following">41</div>
                     <div className="numbers" id="followers">31</div>
                     </div>
@@ -124,8 +139,14 @@ export class TweetBox extends React.Component{
         return(
             <div>
                 <Paper style={tweetboxstyle} zDepth={0}>
+                    <div id="tweetboxcontainer">
+                        <Avatar src={this.props.profpic} size={32} style={tweetboxProfpicStyle} />
+                        <Paper style={tweetboxinnerpapercomponent} zDepth={0}>
+                            <input type="text" id="textbox" placeholder="What's happening?" /> 
+                        </Paper>
+                    </div>
                 </Paper>
-                </div>
+            </div>
         )
     }
 }

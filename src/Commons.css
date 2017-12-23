@@ -119,4 +119,28 @@ a:visited {
     font-weight:normal !important;
     padding-left: 4px;
     padding-right:4px;
+    position:relative;
+    top:-2px;
 }
+#tweetboxcontainer{
+    padding-left: 12px;
+    padding-right:12px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:inline-block;
+}
+#textbox{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom:8px;
+    margin-right:31px;
+    width: 467px;
+    height:20px;
+    border:none;
+    
+}
+:-ms-input-placeholder { 
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size:14px;
+    color:#1B95E0;
+   }

@@ -8,7 +8,7 @@ const App = () => (
     <Navigation />
     <div id="homepage">
       <ProfileCard bgimg='banner.jpg' profpic='profilepic.jpg'/>
-      <TweetBox />
+      <TweetBox profpic='profilepic.jpg'/>
       <WhoToFollow />
       <TrendsBox />
       <PolicyBox />
