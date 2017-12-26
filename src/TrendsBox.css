@@ -1,0 +1,49 @@
+#trends-wrapper{
+    border: 1px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+.hashtags{
+    font-weight: bold;
+    color:#1B95E0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size:14px;
+    cursor:pointer;
+}
+.hashtags:hover{
+    text-decoration: underline;
+}
+.subheader{
+    font-size:12px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:#657786;
+}
+.trendingnow{
+    margin-top: 10px;
+}
+.subtext{
+    display: inline-block !important;
+    font-size:12px !important;
+    font-weight: normal !important;
+    color:#1B95E0 !important;
+    cursor:pointer;
+}
+.subtext:hover{
+    color:#1B95E0 !important;
+    text-decoration: underline;
+}
+.subtext:link {
+    text-decoration: none;
+    color:#1B95E0 !important;
+}
+.dot{
+    display: inline-block;
+    color: 14171A !important;
+    font-size:12px !important;
+    font-weight:normal !important;
+    padding-left: 4px;
+    padding-right:4px;
+    position:relative;
+    top:-2px;
+}

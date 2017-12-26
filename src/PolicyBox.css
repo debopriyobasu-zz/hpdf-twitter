@@ -1,0 +1,31 @@
+#PolicyTextContainer{
+    width: 258px;
+    height:90px;
+    padding:10px;
+
+}
+#policytext{
+    font-size: 12px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    color:#657786;
+}
+.policylink{
+    padding-left:5px;
+}
+.policylink:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+#advert{
+    color:#1B95E0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size:12px;
+    cursor: pointer;
+}
+#advert:hover{
+    text-decoration: underline;
+}
+#promoteicon{
+    color:#1B95E0;
+    margin-right:3px;
+}
