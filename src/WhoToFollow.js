@@ -37,6 +37,7 @@ export class WhoToFollow extends React.Component{
                             <div className="InternalContainer">
                                 <Avatar src='emberjs.png' size={48} className="FollowAvatar"/>
                                 <div className="PersonToFollowName">EmberJS<div className="PersonToFollowHandle">@emberjs</div></div>
+                                <span id="cancel"><i class="fas fa-times"></i></span>
                                 <FlatButton label="Follow" primary={true} style={buttonStyle}
                                 labelStyle={labelStyle} hoverColor ="#E8F4FB" />
                             </div>
@@ -44,13 +45,15 @@ export class WhoToFollow extends React.Component{
                             <div className="InternalContainer">
                                 <Avatar src='reactnative.jpg' size={48} className="FollowAvatar"/>
                                 <div className="PersonToFollowName">React Native<div className="PersonToFollowHandle">@reactnative</div></div>
+                                <span id="cancel"><i class="fas fa-times"></i></span>
                                 <FlatButton label="Follow" primary={true} style={buttonStyle}
                                 labelStyle={labelStyle} hoverColor ="#E8F4FB" />
                             </div>
                             <Divider />
                             <div className="InternalContainer">
                                 <Avatar src='ionic.jpg' size={48} className="FollowAvatar"/>
-                                <div className="PersonToFollowName">ionic<div className="PersonToFollowHandle">@ionicframework</div></div>
+                                <div className="PersonToFollowName">ionic<i class="fas fa-check-circle fa-xs" id='verify'></i><div className="PersonToFollowHandle">@ionicframework</div></div>
+                                <span id="cancel"><i class="fas fa-times"></i></span>
                                 <FlatButton label="Follow" primary={true} style={buttonStyle}
                                 labelStyle={labelStyle} hoverColor ="#E8F4FB" />
                             </div>

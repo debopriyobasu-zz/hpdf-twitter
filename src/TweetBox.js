@@ -23,10 +23,12 @@ export class TweetBox extends React.Component{
     render(){
         return(
                 <Paper style={tweetboxstyle} zDepth={0}>
-                        {/* <span id="picicon"><i class="fas fa-image"></i></span> */}
-                        <Avatar src={this.props.profpic} size={32} style={tweetboxProfpicStyle} />
-                        <input type="text" id="textbox" placeholder="What's happening?" />
                         
+                        <Avatar src={this.props.profpic} size={32} style={tweetboxProfpicStyle} />
+                        <span id="tweetcontainer">
+                        <input type="text" id="textbox" placeholder="What's happening?" />
+                        <span id="picicon"><i class="fas fa-image"></i></span>
+                        </span>
                 </Paper>
         )
     }

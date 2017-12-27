@@ -13,6 +13,11 @@
     font-family: "Segoe UI",Arial,sans-serif;
     font-weight:bold;
     font-size:14px;
+    cursor: pointer;
+}
+.profilename:hover{
+    text-decoration:underline;
+    color:#1DA1F2;
 }
 .avatar{
     float:left;
@@ -106,7 +111,7 @@
 }
 #icons{
     clear:both;
-    color:#B9C4C9;
+    color:#90A4AE;
     margin-top:10px;
     margin-left:50px;
 }
@@ -134,11 +139,14 @@
     font-family: "Segoe UI",Arial,sans-serif;
 }
 #c:hover,#m:hover{
-    color:#1DA1F2
+    color:#1DA1F2;
+    cursor: pointer;
 }
 #r:hover{
     color:#3FC97E;
+    cursor: pointer;
 }
 #l:hover{
     color:#E0245E;
+    cursor: pointer;
 }

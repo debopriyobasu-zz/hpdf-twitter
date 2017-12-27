@@ -1,0 +1,70 @@
+#homeicon{
+    margin-left:10px;
+    position:relative;
+    top:-30px;
+    color: #1B95E0;
+}
+#Home{
+    padding-left:10px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight:bold;
+    position:relative;
+    top:-30px;
+    color: #1B95E0;
+    font-size:13px;
+}
+#momentsicon,#notificon,#messageicon{
+    margin-left:45px;
+    color: #90A4AE;
+    position:relative;
+    top:-30px;
+    cursor:not-allowed;
+}
+#Moments,#Notifications,#Messages{
+    padding-left:10px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight:bold;
+    font-size:13px;
+    position:relative;
+    top:-30px;
+    color: #90A4AE;
+    cursor:not-allowed;   
+}
+#twitter_icon{
+    position: absolute;
+    margin-left:750px;
+    margin-top:18px;
+    font-size:20px;
+    color:#1DA1F2;
+}
+#search{
+    position:absolute;
+    top:9px;
+    width:175px;
+    margin-left:1000px;
+    border:1px solid;
+    border-color:#e0e0e0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size:12px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-right:32px;
+}
+#search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #14171a;
+    opacity: 1; /* Firefox */
+}
+input:focus::-webkit-input-placeholder {
+    color: #999;
+}
+#searchicon{
+    position:absolute;
+    margin-left:1190px;
+    margin-top:17px;
+    color: #B0BEC5;
+}

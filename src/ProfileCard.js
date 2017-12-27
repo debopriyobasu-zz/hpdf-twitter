@@ -7,6 +7,8 @@ const cardstyle = {
     width: 290,
     textAlign: 'center',
     marginTop: 10,
+    position:'absolute',
+    top:51
   };
   const profstyle ={
     display: 'inline-block',

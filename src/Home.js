@@ -1,6 +1,6 @@
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import Navigation from './AppBar.js';
+import {Navigation} from './AppBar.js';
 import {ProfileCard} from './ProfileCard.js';
 import {TrendsBox} from './TrendsBox.js';
 import {TweetBox} from './TweetBox.js';
@@ -10,7 +10,7 @@ import {Feed} from './Feed.js';
 import './Home.css';
 const Home = () => (
   <MuiThemeProvider>
-    <Navigation />
+    <Navigation profpic='profilepic.jpg'/>
     <div id="homepage">
       <ProfileCard bgimg='banner.jpg' profpic='profilepic.jpg'/>
       <TweetBox profpic='profilepic.jpg'/>

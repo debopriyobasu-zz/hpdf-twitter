@@ -12,9 +12,7 @@
     border:1px solid #B3E5FC;
     font-family: "Segoe UI",Arial,sans-serif;
     font-size:14px;
-    position:absolute;
-    top:10px;
-    left:70px;
+    
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #1B95E0;
@@ -24,9 +22,13 @@ input:focus::-webkit-input-placeholder {
     color: #999;
 }
 #picicon{
-    /* position:absolute;
-    left:500px;
-    top:120px; */
-
-
+    position:absolute;
+    top:10px; 
+    left:480px;
+    color:#7BC2ED;
+}
+#tweetcontainer{
+    position:absolute;
+    top:10px;
+    left:70px;
 }

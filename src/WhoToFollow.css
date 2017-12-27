@@ -70,3 +70,12 @@
     text-decoration: none;
     color:#1B95E0 !important;
 }
+#verify{
+    color:#1DA1F2;
+    margin-left:2px;
+}
+#cancel{
+    color:#CFD8DF;
+    float:right;
+    margin-top:10px;
+}
