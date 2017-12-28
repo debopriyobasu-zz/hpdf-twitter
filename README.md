@@ -1,8 +1,8 @@
-#Hasura Product Development Fellowship Task-1
-##This webapp implements the main timeline and the search results page of Twitter
-This webapp uses hard-coded data to implement the following pages from the perspective of a logged in user:
-1)Main timeline: https://twitter.com
-2)Search results: https://twitter.com/search?q=aadhaar
+# Hasura Product Development Fellowship Task-1
+## This webapp implements the main timeline and the search results page of Twitter
+This webapp uses hard-coded data to implement the following pages from the perspective of a logged in user: <br/>
+1)Main timeline: https://twitter.com <br/>
+2)Search results: https://twitter.com/search?q=aadhaar <br/>
 
 ##Sections
 * [Introduction](#introduction)
