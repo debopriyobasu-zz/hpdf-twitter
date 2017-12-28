@@ -1,3 +1,21 @@
+#Hasura Product Development Fellowship Task-1
+##This webapp implements the main timeline and the search results page of Twitter
+This webapp uses hard-coded data to implement the following pages from the perspective of a logged in user:
+1)Main timeline: https://twitter.com
+2)Search results: https://twitter.com/search?q=aadhaar
+
+##Sections
+* [Introduction](#introduction)
+* [Look and Feel](#look-and-feel)
+* [Installation](#installation)
+* [Cloning and Running this Application](#cloning-and-running-this-application)
+* [Tasks Achieved and Note ](#task-achieved-and-note)
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
