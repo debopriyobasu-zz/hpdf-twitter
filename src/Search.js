@@ -18,8 +18,8 @@ export class Search extends React.Component{
     render(){
         return(
         <MuiThemeProvider>
-            <Navigation profpic='profilepic.jpg' searchword='aadhar'/>
-            <AppBar showMenuIconButton={false} title="aadhar" titleStyle={{fontFamily:"Segoe UI,Arial,sans-serif",fontWeight:'bold',marginLeft:'100px',fontSize:'27px'}}
+            <Navigation profpic='profilepic.jpg' searchword='aadhaar'/>
+            <AppBar showMenuIconButton={false} title="aadhaar" titleStyle={{fontFamily:"Segoe UI,Arial,sans-serif",fontWeight:'bold',marginLeft:'100px',fontSize:'27px'}}
       style={{backgroundColor:"#1B95E0",position:"fixed",top:"46px"}}
       zDepth="0px" />
       <AppBar showMenuIconButton={false}
