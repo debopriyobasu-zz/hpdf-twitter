@@ -6,18 +6,18 @@ import Avatar from 'material-ui/Avatar';
 import FlatButton from 'material-ui/FlatButton';
 const tabstyle={
   position:'absolute',
-  left:200,
+  left:100,
   width:480,
   height:40,
 }
 const navbarprofpic={
   position:'absolute',
-  marginLeft:1230,
+  marginLeft:1130,
   marginTop:10
 }
 const buttonStyle={
   position:'absolute',
-  marginLeft:1280,
+  marginLeft:1180,
   marginTop:7,
   backgroundColor:'#1DA1F2',
   borderRadius:25,

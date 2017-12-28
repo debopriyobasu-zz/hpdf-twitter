@@ -7,7 +7,7 @@ const policystyle ={
     height: 156,
     width: 290,
     position:'absolute',
-    left:1100,
+    left:1000,
     top:370
 }
 export class PolicyBox extends React.Component{

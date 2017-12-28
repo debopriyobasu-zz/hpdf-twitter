@@ -30,7 +30,7 @@
 }
 #twitter_icon{
     position: absolute;
-    margin-left:750px;
+    margin-left:650px;
     margin-top:18px;
     font-size:20px;
     color:#1DA1F2;
@@ -39,7 +39,7 @@
     position:absolute;
     top:9px;
     width:175px;
-    margin-left:1000px;
+    margin-left:900px;
     border:1px solid;
     border-color:#e0e0e0;
     border-bottom-left-radius: 15px;
@@ -62,7 +62,7 @@ input:focus::-webkit-input-placeholder {
 }
 #searchicon{
     position:absolute;
-    margin-left:1190px;
+    margin-left:1090px;
     margin-top:17px;
     color: #B0BEC5;
 }

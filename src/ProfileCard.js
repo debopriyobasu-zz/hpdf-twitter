@@ -6,9 +6,10 @@ const cardstyle = {
     height: 213,
     width: 290,
     textAlign: 'center',
-    marginTop: 10,
     position:'absolute',
-    top:51
+    top:56,
+    marginLeft:-100,
+    
   };
   const profstyle ={
     display: 'inline-block',

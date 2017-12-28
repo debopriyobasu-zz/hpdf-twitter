@@ -11,7 +11,7 @@ const tweetboxstyle = {
      marginTop: 10,
      position:'absolute',
      top:48,
-     left:490
+     left:390
   };
   const tweetboxProfpicStyle = {
     display:'inline',

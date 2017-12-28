@@ -7,6 +7,8 @@ const feedstyle={
     display:'inline-block',
     marginLeft: 10,
     marginRight: 10,
+    position:'absolute',
+    left:390
     
 }
 const profstyle = {

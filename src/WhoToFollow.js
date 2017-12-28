@@ -8,7 +8,7 @@ import './WhoToFollow.css';
 var followstyle ={
     height: 300,
     width: 290,
-    marginLeft:902,
+    marginLeft:802,
     marginTop:58
 };
 const buttonStyle ={
