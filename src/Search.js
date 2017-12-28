@@ -89,7 +89,7 @@ export class Search extends React.Component{
             <div style={{width:'506px',height:'103px',float:'right'}}>
             <span className="profilename">Rohan.</span><span className="Handle">@rohanchouhan98<span className="dot">.</span>Dec 23</span>
                         <i class="fas fa-angle-down" id="caret"></i>
-                        <div style={{fontFamily:"Segoe UI,Arial,sans-serif",fontSize:'14px'}}>If <strong>Aadhar</strong> was a person, his favorite band would be Linkin Park</div>
+                        <div style={{fontFamily:"Segoe UI,Arial,sans-serif",fontSize:'14px'}}>If <strong>Aadhaar</strong> was a person, his favorite band would be Linkin Park</div>
                         <div id='p1icons'>
                            <span id="c"> <span id="comment"><i class="far fa-comment"></i></span><span id="counter">15</span></span>
                            <span id="r"> <span id="retweet"><i class="fas fa-retweet"></i></span><span id="counter">245</span></span>
@@ -107,7 +107,7 @@ export class Search extends React.Component{
             <div style={{width:'506px',height:'71px',float:'right'}}>
             <span className="profilename">Pranav</span><span className="Handle">@prnv_<span className="dot">.</span>Dec 20</span>
                         <i class="fas fa-angle-down" id="caret"></i>
-                        <div style={{fontFamily:"Segoe UI,Arial,sans-serif",fontSize:'14px'}}>If <strong>Aadhar</strong> was a person, his favorite app would be LinkedIn.</div>
+                        <div style={{fontFamily:"Segoe UI,Arial,sans-serif",fontSize:'14px'}}>If <strong>Aadhaar</strong> was a person, his favorite app would be LinkedIn.</div>
                         <div id='p1icons'>
                            <span id="c"> <span id="comment"><i class="far fa-comment"></i></span><span id="counter">5</span></span>
                            <span id="r"> <span id="retweet"><i class="fas fa-retweet"></i></span><span id="counter">164</span></span>
@@ -124,7 +124,7 @@ export class Search extends React.Component{
             <div style={{width:'506px',height:'496px',float:'right'}}>
             <span className="profilename">Vishal yadav</span><span className="Handle">@Yadav_vishal_<span className="dot">.</span>Dec 20</span>
                         <i class="fas fa-angle-down" id="caret"></i>
-                        <div style={{fontFamily:"Segoe UI,Arial,sans-serif",fontSize:'14px'}}>When you go to the bank for linking <strong>aadhar</strong> card but you forgot to take the <strong>aadhar</strong> card with you,the bank employee be like</div>
+                        <div style={{fontFamily:"Segoe UI,Arial,sans-serif",fontSize:'14px'}}>When you go to the bank for linking <strong>aadhaar</strong> card but you forgot to take the <strong>aadhaar</strong> card with you,the bank employee be like</div>
                         <img src="bank.jpg" alt="Oreo" id="aadharpic" />
                         <div id='p1icons'>
                            <span id="c"> <span id="comment"><i class="far fa-comment"></i></span><span id="counter">4</span></span>
