@@ -1,0 +1,72 @@
+#homeicon{
+    color: #90A4AE;
+}
+#Home{
+    color: #90A4AE;
+}
+#filtercontainer,#relatedcontainer{
+    padding:15px;
+}
+#peopletofollow{
+    position:'absolute';
+    margin-left:-500px;
+    margin-top:-600px;
+}
+#cont{
+    font-family:"Segoe UI",Arial,sans-serif;
+    padding-top:7px;
+    color:#1B95E0;
+    font-weight:bold;
+    font-size:14px
+}
+#cont:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+#topnews{
+    position:absolute;
+    left:520px;
+    top:170px;
+}
+#people{
+    position:absolute;
+    left:520px;
+    top:670px;
+}
+#p1icons{
+    clear:both;
+    color:#90A4AE;
+    margin-top:15px;
+}
+#blue{
+    color:#1B95E0;
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-size:14px;
+    margin-top:10px;
+}
+#blue:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+#aadharpic{
+    width:506px;
+    height:341.58px;
+    border:1px solid;
+    border-color:#E1E8ED;
+    margin-top:15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#ftext{
+    color:'#657786';
+    font-size:12px;
+    padding-right:5px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+#ftext:hover{
+    text-decoration:underline;
+    cursor:pointer;
+    color:#1B95E0;
+}

@@ -10,15 +10,15 @@ import {Feed} from './Feed.js';
 import './Home.css';
 const Home = () => (
   <MuiThemeProvider>
-    <Navigation profpic='profilepic.jpg'/>
+    <Navigation profpic='profilepic.jpg' searchword='Search Twitter'/>
     <div id="homepage">
-      <ProfileCard bgimg='banner.jpg' profpic='profilepic.jpg'/>
+      <ProfileCard bgimg='banner.jpg' profpic='profilepic.jpg' />
       <TweetBox profpic='profilepic.jpg'/>
       <Feed />
       <WhoToFollow />
       <TrendsBox />
       <PolicyBox />
-      </div>
+    </div>
   </MuiThemeProvider>
 );
  export default Home;

@@ -1,0 +1,8 @@
+#peoplename:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+#peoplehandle:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}

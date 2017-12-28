@@ -5,13 +5,11 @@ import FlatButton from 'material-ui/FlatButton';
 import Divider from 'material-ui/Divider';
 import './WhoToFollow.css';
 
-const followstyle ={
-    marginTop: 10,
+var followstyle ={
     height: 300,
     width: 290,
-    position:'absolute',
-    left:1100,
-    top:48
+    marginLeft:902,
+    marginTop:58
 };
 const buttonStyle ={
     border:1,
@@ -26,7 +24,9 @@ const labelStyle={
     color:"#2399E1",
     fontWeight:"bold",
     fontSize:12,
-    fontFamily:"Helvetica Neue,Helvetica,Arial,sans-serif" 
+    fontFamily:"Helvetica Neue,Helvetica,Arial,sans-serif",
+    verticalAlign:'middle',
+    horizontalAlign:'middle',
 };
 export class WhoToFollow extends React.Component{
     render(){

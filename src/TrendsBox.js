@@ -5,9 +5,7 @@ const trendsstyle ={
     height: 420,
     width: 290,
     display: 'inline-block',
-    marginTop: 10,
-    position:'absolute',
-    top:275,
+    marginTop:-70,
 };
 export class TrendsBox extends React.Component{
     render(){

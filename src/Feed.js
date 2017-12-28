@@ -48,12 +48,12 @@ export class Feed extends React.Component{
                      <i class="fas fa-angle-down" id="caret"></i>
                      <div id="content">Android 8.0 Oreo in beta testing for Xiaomi Mi A1,enables fast charging. <span id="link">https://t.co/eFvicYTIqF</span></div>
                      <img src="Oreo.jpg" alt="Oreo" id="pic2" />
-                     <span id="icons">
+                     <div id="icons">
                            <span id="c"> <span id="comment"><i class="far fa-comment"></i></span><span id="counter">3</span></span>
                            <span id="r"> <span id="retweet"><i class="fas fa-retweet"></i></span><span id="counter">3</span></span>
                            <span id="l"> <span id="like"><i class="far fa-heart"></i></span><span id="counter">26</span></span>
                             <span id="m"><span id="message"><i class="far fa-envelope"></i></span></span>
-                        </span>
+                        </div>
                      
                  </div>
                  <Divider style={divstyle}/>
