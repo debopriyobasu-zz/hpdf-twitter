@@ -136,7 +136,7 @@ export class Search extends React.Component{
                 </div>
                 </div>
                 </Paper>
-                <Paper style={{width:'290px',height:'66px',position:'absolute',left:'100px',top:'1185px',backgroundolor:'#e6ecf0'}} zDepth={0} rounded={false}>
+                <Paper style={{width:'290px',height:'66px',position:'absolute',left:'100px',top:'1185px',backgroundColor:'#e6ecf0'}} zDepth={0} rounded={false}>
                     <div style={{padding:'15px'}}>
                     <span id='ftext'>&copy;2018 Twitter</span><span id='ftext'>About</span><span id='ftext'>Help Center</span><span id='ftext'>Terms</span><span id='ftext'>Privacy policy</span><span id='ftext'>Cookies</span><span id='ftext'>Ads info</span>
                         </div>
