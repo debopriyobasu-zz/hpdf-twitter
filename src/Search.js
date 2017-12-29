@@ -68,11 +68,11 @@ export class Search extends React.Component{
      <span className="name" id="topnews">Top news</span>
      <span className="subtext" style={{position:'absolute',top:'175px',left:'940px',fontFamily:"Segoe UI,Arial,sans-serif"}}>View all</span>
      <Paper style={{width:'589.98px', height:'426px',marginLeft:'405px',marginTop:'-620px'}} zDepth={0}>
-        <img src="facebook.jpeg" style={{width:'inherit',height:'300px'}} />
+        <img src="facebook.jpeg" alt="fb" style={{width:'inherit',height:'300px'}} />
         <div style={{padding:'15px'}}>
             <div style={{fontSize:'18px',fontWeight:'bold',maxHeight:'48px',color:'#14171a',fontFamily:"Segoe UI,Arial,sans-serif"}}>Facebook may soon ask you to link your account with your Aadhar Card</div>
             <div style={{fontSize:'14px',color:'#66757f',fontFamily:"Segoe UI,Arial,sans-serif"}}>Site seeks details for opening new accounts.</div>
-            <div style={{paddingTop:'10px'}}><img src='deccanchronicle.jpg' style={{height:'16px',width:'16px',borderRadius:'10px',float:'left'}}/><span style={{fontSize:'12px',fontWeight:'bold',fontFamily:"Segoe UI,Arial,sans-serif",marginLeft:'3px',float:'left'}}>Deccan Chronicle</span><span style={{color:'#657786',fontSize:'12px',fontFamily:"Segoe UI,Arial,sans-serif",float:'right'}}>Dec 27,2017</span></div>
+            <div style={{paddingTop:'10px'}}><img src='deccanchronicle.jpg' alt="dc" style={{height:'16px',width:'16px',borderRadius:'10px',float:'left'}}/><span style={{fontSize:'12px',fontWeight:'bold',fontFamily:"Segoe UI,Arial,sans-serif",marginLeft:'3px',float:'left'}}>Deccan Chronicle</span><span style={{color:'#657786',fontSize:'12px',fontFamily:"Segoe UI,Arial,sans-serif",float:'right'}}>Dec 27,2017</span></div>
         </div>
      </Paper>
      <span className="name" id="people">People</span>
