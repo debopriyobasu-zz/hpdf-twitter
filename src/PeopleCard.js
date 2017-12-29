@@ -33,7 +33,7 @@ export class PeopleCard extends React.Component{
             <MuiThemeProvider>
             <Paper zDepth={0} style={{height:'289px',width:'290px'}}>
             <div>
-                <img src={this.props.bgimg} style={{width:'290px',height:'90px'}}/>
+                <img src={this.props.bgimg} alt="bgimg" style={{width:'290px',height:'90px'}}/>
                 <Avatar src={this.props.profpic} size={70} style={{borderRadius:'50%',border:'3px',borderColor:'#FFFFFF',position:'relative',top:'-30px',left:'15px',borderStyle:'solid'}}/>
                 <FlatButton label="Follow" primary={true} style={followbutton}
                                 labelStyle={followtext} hoverColor ="#E8F4FB" />
