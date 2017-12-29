@@ -1,4 +1,5 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
+
 # dependencies
 /node_modules
 
@@ -10,23 +11,11 @@
 
 # misc
 .DS_Store
-_SpecRunner.html
-__benchmarks__
-remote-repo/
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.module-cache
-fixtures/dom/public/react-dom.js
-fixtures/dom/public/react.js
-test/the-files-to-test.generated.js
-*.log*
-chrome-user-data
-*.sublime-project
-*.sublime-workspace
-.idea
-*.iml
-.vscode
-*.swp
-*.swo
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
