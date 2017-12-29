@@ -67,7 +67,7 @@ cd desktop
 the default diretory opened when you open Git Bash is the root directory.
 * Now,you can proceed to clone the application using the following command:
 ```
-git clone git@github.com:debopriyobasu/hpdf-twitter.git
+git clone https://github.com/debopriyobasu/hpdf-twitter.git
 ```
 * After the cloning is complete,traverse to the cloned app directory using the following command:
 ```
