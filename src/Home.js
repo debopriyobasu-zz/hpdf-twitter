@@ -7,11 +7,13 @@ import {TweetBox} from './TweetBox.js';
 import {WhoToFollow} from './WhoToFollow.js';
 import {PolicyBox} from './PolicyBox.js';
 import {Feed} from './Feed.js';
+import {SnackBar} from './SnackBar.js'
 import './Home.css';
 const Home = () => (
   <MuiThemeProvider>
     <Navigation profpic='profilepic.jpg' searchword='Search Twitter'/>
     <div id="homepage">
+      <SnackBar />
       <ProfileCard bgimg='banner.jpg' profpic='profilepic.jpg' />
       <TweetBox profpic='profilepic.jpg'/>
       <Feed />

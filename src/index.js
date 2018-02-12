@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from "./Home.js";
-import {Search} from "./Search.js";
+import { BrowserRouter } from 'react-router-dom';
 import './index.css';
+import Routing from './Routing.js'
 ReactDOM.render(
- <Home />,
+  <BrowserRouter><Routing /></BrowserRouter>,
   document.getElementById('root')
 );
